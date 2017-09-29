@@ -1,0 +1,129 @@
+#wrap .sample_folder {
+	position: relative;
+	top: -100px;
+	width: 1100px;
+	height: 550px;
+	margin-left: 100px;
+	border-bottom-right-radius: 20px;
+	overflow: hidden;
+}
+#wrap .sample_folder .tree {
+	padding-top: 75px;
+	float: left;
+	width: 300px;
+	height: 100%;
+	overflow-x: auto;
+	overflow-y: auto;
+	background-color: ;
+	transform: translateX(-300px);
+	transition: 1s;
+}
+#wrap .sample_folder .intro {
+	float: left;
+	width: 800px;
+	height: 75px;
+	background-color: rgba(0,0,0,.3);
+	transform: translateY(-75px);
+	transition: 1s;
+}
+#wrap .sample_folder .tree_arrow {
+	margin-right: 10px;
+	cursor: pointer;
+}
+#wrap .sample_folder .system {
+	float: left;
+	position: relative;
+	width: 800px;
+	height: 475px;
+	background-color: rgba(0,0,0,.2);
+	transform: translateY(475px);
+	transition: 1s;
+}
+#wrap .sample_folder .tree ul {
+	display: none;
+}
+#wrap .sample_folder li {
+	font-size: 20px;
+	line-height: 30px;
+	transition: 1s;
+}
+#wrap .sample_folder .tree p {
+	text-indent: 2em;
+	transition : 1s;
+	cursor: pointer;
+	white-space: nowrap;
+}
+#wrap .sample_folder .tree p:hover {
+	background-color: rgba(0,0,0,.2);
+	color: white;
+	transform: scale(1.2,1.2);
+}
+#wrap .sample_folder .system_content {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+#wrap .sample_folder .system_content:hover {
+	transform: scale(1.2,1.2)
+}
+#wrap .sample_folder .system_content>p {
+	position: absolute;
+	top: 70%;
+	width: 100%;
+	text-align: center;
+}
+#wrap .sample_folder input {
+	position: absolute;
+	left: 50%;
+	margin-left: -40px;
+	top: 70%;
+	width: 80px;
+	display: none;
+}
+#wrap .system ul  {
+	position: absolute;
+	width: 200px;
+	height: 150px;
+}
+#wrap .system ul>li {
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	transition: 1s;
+}
+#wrap .system ul>li:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+}
+#wrap .intro {
+	overflow-x: auto;
+	white-space: nowrap;
+
+}
+#wrap .intro span {
+	display: inline-block;
+	height: 100%;
+	line-height: 75px;
+	font-size: 20px;
+	margin: 0 30px;
+	cursor: pointer;
+	transition: 1s;
+	white-space: nowrap;
+}
+#wrap .intro span:hover {
+	transform: scale(1.2,1.2);
+}
+#wrap .system .system_select {
+	background-color: white;
+}

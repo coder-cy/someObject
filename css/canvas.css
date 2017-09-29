@@ -1,0 +1,40 @@
+#wrap .detail .canvas_div {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -500px;
+	margin-top: -250px;
+	width: 1000px;
+	height: 500px;
+	border: 1px solid transparent;
+	overflow: hidden;
+}
+#wrap .detail .canvas_div ul {
+	position: absolute;
+	width: 1750px;
+}
+#wrap .detail .canvas_div li {
+	position: absolute;
+	height: 500px;
+	transition: 1s;
+}
+#wrap .detail .canvas_div li:nth-of-type(1) {
+	background-color: rgba(0,0,0,.2);
+	top: -500px;
+}
+#wrap .detail .canvas_div li:nth-of-type(2) {
+	background-color: rgba(0,0,0,.2);
+	top: 500px;
+}
+#wrap .detail .canvas_div li:nth-of-type(3) {
+	background-color: rgba(0,0,0,.2);
+	top: -500px;
+}
+#wrap .detail .canvas_div li:nth-of-type(4) {
+	background-color: rgba(0,0,0,.2);
+	top: 500px;
+}
+#wrap .detail .canvas_div canvas {
+	width: 1000px;
+	height: 500px;
+}

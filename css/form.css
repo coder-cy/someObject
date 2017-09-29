@@ -1,0 +1,175 @@
+#wrap .detail .form_div {
+	position: absolute;
+	left: 100px;
+	top:0;
+	width: 1100px;
+	height: 550px;
+	background-color: rgba(0,0,0,.2)
+}
+
+/* 登录界面 */
+#wrap .detail .form_mask {
+	position: absolute;
+	left: 100px;
+	top: 50%;
+	margin-top: -200px;
+	width: 900px;
+	height: 400px;
+	overflow: hidden;
+	opacity: 0;
+	transition: 1s;
+	transform: rotateX(180deg);
+	/*overflow-y: scroll;*/
+}
+#wrap .detail .form_content {
+	position: absolute;
+	width: 100%;
+	height: 1600px;
+}
+#wrap .detail .login_div {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-color: skyblue;
+}
+#wrap .detail .login_div input{
+	position: absolute;
+	left: 50%;
+	width: 300px;
+	height: 50px;
+	margin-left: -150px;
+	border-radius: 25px;
+	outline: none;
+}
+#wrap .detail .login_div a{
+	position: absolute;
+	color: white;
+}
+#wrap .detail .login_div a:nth-of-type(1){
+	left: 50%;
+	top: 75%;
+	margin-left: -67px;
+}
+#wrap .detail .login_div a:nth-of-type(2){
+	top: 10px;
+	right: 10px;
+}
+#wrap .detail .login_div input:nth-of-type(1){
+	top: 100px;
+}
+#wrap .detail .login_div input:nth-of-type(2){
+	top: 170px;
+}
+#wrap .detail .login_div input:nth-of-type(3){
+	top: 240px;
+}
+#wrap .detail .form_div input[type=text],#wrap .detail .form_div input[type=password] {
+	font-size: 20px;
+	text-indent: 1em;
+	border-radius: 25px;
+	width: 300px;
+	height: 50px;
+	outline: none;
+}
+/* 进度条 */
+#wrap .detail .form_div .bar {
+	display: none;
+	position: absolute;
+	top: 75px;
+	width: 100px;
+	height: 400px;
+	opacity: 0;
+	transition: 1s;
+}
+#wrap .detail .form_div .bar>div:nth-of-type(1) {
+	position: absolute;
+	left: 0;
+	width: 100px;
+	height: 400px;
+	background-image: url(../image/form/bar.png);
+	z-index: 1;
+}
+#wrap .detail .form_div .bar>div:nth-of-type(2) {
+	position: absolute;
+	width: 100px;
+	height: 0px;
+	background-color: green;
+}
+#wrap .detail .form_div .circle {
+	position: absolute;
+	left: 25px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid white;
+	z-index: 2;
+	cursor: pointer;
+}
+#wrap .detail .form_div .bar>div:nth-of-type(3) {
+	top: 25px;
+}
+#wrap .detail .form_div .bar>div:nth-of-type(4) {
+	top: 175px;
+}
+#wrap .detail .form_div .bar>div:nth-of-type(5) {
+	top: 325px;
+}
+
+/* 注册界面 */
+
+#wrap .detail .register {
+	width: 100%;
+	height: 1300px;
+	background-color: rgb(40,40,40);
+}
+#wrap .detail .register form>div{
+	height: 60px;
+	text-align: center;
+}
+#wrap .detail .register form>div>*{
+	vertical-align: middle
+}
+#wrap .detail .register form {
+	padding-top: 100px;
+}
+#wrap .detail .register form>div:nth-of-type(4) {
+	margin-top: 100px;
+}
+#wrap .detail .register label {
+	color: white;
+}
+#wrap .detail .register form>p{
+	padding-left: 300px;
+	height: 30px;
+	text-align: left;
+	line-height: 30px;
+}
+
+#wrap .detail .register .intro {
+	width: 600px;
+	height: 300px;
+	border: 1px solid black;
+	white-space: normal;
+	margin-left: 140px;
+	margin-top: 20px;
+}
+#wrap .detail .intro>p {
+	word-wrap:break-word;
+	width: 100%;
+	line-height: 30px;
+	text-indent: 2em;
+	color: whitesmoke;
+}
+#wrap .detail .confirm {
+	visibility: hidden;
+	margin-top: 10px;
+	text-align: center;
+}
+#wrap .detail .submit {
+	margin-top: 10px;
+	text-align: center;
+}
+#wrap .detail .submit input {
+	width: 165px;
+	height: 30px;
+}

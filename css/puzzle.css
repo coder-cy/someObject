@@ -1,0 +1,40 @@
+#wrap .detail .puzzle_ul {
+	position: absolute;
+	width: 502px;
+	height: 502px;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -251px;
+	border: 1px solid black;
+	opacity: 0;
+	transition: 2s;
+}
+#wrap .detail .puzzle_ul li {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-image: url(../image/puzzle/puzzle.png);
+	opacity: 0;	
+}
+#wrap .detail .puzzle_ul li:hover {
+	border: 1px solid white;
+}
+#wrap .detail .puzzle_ul button {
+	position: absolute;
+	bottom: 0;
+	width: 50%;
+	height: 100px;
+	transition: 1s;
+	font-size: 30px;
+	opacity: 0;
+}
+#wrap .detail .puzzle_ul button:nth-of-type(1) {
+	left: -50%;
+}
+#wrap .detail .puzzle_ul button:nth-of-type(2) {
+	right: -50%;
+}
+#wrap .detail .puzzle_ul .crash {
+	border: 2px solid blue;
+}

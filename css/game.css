@@ -1,0 +1,28 @@
+#wrap .detail .game_ul {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -250px;
+	width: 500px;
+	height: 500px;
+}
+#wrap .detail .game_ul>li {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid black;
+	float: left;
+	opacity: 0;
+	transition:  opacity .5s, transform .1s, background-color: 1s;
+	cursor: pointer;
+}
+#wrap .detail .game_ul .dig {
+	background-color: rgba(0,0,0,.2);
+}
+#wrap .detail .game_ul .flag {
+	background-image: url(../image/game/flag.png);
+}
+#wrap .detail .game_ul .btn {
+	box-shadow: inset 0 0 10px black;
+}
